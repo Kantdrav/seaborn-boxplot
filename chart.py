@@ -38,5 +38,6 @@ ax.set_xlabel("Customer Segment", fontsize=14)
 ax.set_ylabel("Spending ($)", fontsize=14)
 
 # Save as 512x512 px
-plt.savefig("chart.png", dpi=64, bbox_inches="tight")
+plt.savefig("chart.png", dpi=64, bbox_inches=None)
+
 plt.close()
